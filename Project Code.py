@@ -14,7 +14,7 @@ from cartopy import crs as ccrs
 from cartopy.util import add_cyclic_point
 
 # Read in the Data 
-fname='/Users/evanchladny/Desktop/Spring 2023/Principles of Research/Project/Global Data'
+fname='Global Data'
 ds=xr.open_dataset(fname)
 print(ds)
 
